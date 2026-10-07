@@ -305,3 +305,14 @@ footer .brand b{color:#fff5e9}footer .brand b span{color:#ffd0bb}
  .project-grid{grid-template-columns:1fr}.resource-card[id]{scroll-margin-top:150px}
 }
 @media screen and (max-width:720px){html{font-size:20px}.hero h1{font-size:2rem}.section-top h2{font-size:1.85rem}.chart-value{font-size:2.1rem}.chart-value .to{margin:0 4px}.bar-row{grid-template-columns:35px 1fr 58px;gap:8px}.chart{padding:20px}}
+
+/* Keep the closing classroom quote in normal flow before the musical section. */
+.practice-layout{display:block}
+.practice-photos{position:static;margin:36px 0 0;width:auto;min-width:0}
+.practice-photos blockquote{position:static;margin:0;padding:32px 36px;max-width:100%;height:auto}
+.practice-photos blockquote p{margin:16px 0 0}
+#practice>.detail{position:static;clear:both;margin-top:26px}
+#practice{display:flow-root;padding-bottom:70px}
+#musical{position:relative;clear:both}
+#musical>.section{padding-top:70px}
+@media(max-width:720px){.practice-photos{margin-top:28px}.practice-photos blockquote{padding:26px 24px}#practice{padding-bottom:48px}#musical>.section{padding-top:48px}}
